@@ -3,10 +3,10 @@ GET http://localhost:3002/api/notes
 ###
 
 
-POST http://localhost:3002/api/notes
+POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-    "content":"t for  backend",
+    "content":"tqw",
     "important":null
 }

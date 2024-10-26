@@ -1,1 +1,15 @@
-GET http://localhost:3002/api/notes
+GET http://localhost:3001/api/notes
+
+###
+GET http://localhost:3001/api/notes/9
+
+###
+DELETE  http://localhost:3001/api/notes/6719516a964b42ff356068a9
+###
+PUT http://localhost:3001/api/notes/671a95627431ae758be5d2d0
+Content-Type: application/json
+
+{
+  "content":"hel",
+  "important": true
+}
